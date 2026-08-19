@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+
+.navBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  height: 60px;
+  background-color: #232F3F;
+  margin-top: 20px;
+  
+  
+}
+.navBar a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+ 
+}
+
+.navBar a:hover{
+  color: red;
+}
+
+.navBar a.active{
+  color: orange;
+  text-decoration: underline;
+}
+
+@media (max-width:600px){
+  .navBar{
+    gap: 25px;
+    height: 40px;
+  }
+
+    .navBar a{
+      font-size: 1rem;
+    }
+}

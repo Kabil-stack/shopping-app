@@ -1,0 +1,51 @@
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+
+.payment h1 {
+    font-size: 3rem;
+    color: rgb(198, 46, 46);
+    vertical-align: middle;
+
+}
+
+.emoji {
+
+    vertical-align: middle;
+    
+
+}
+
+.payment button {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: grey;
+    border: 1px solid grey;
+    transition-duration: 450ms;
+    transition-timing-function: ease-out;
+}
+
+.payment button:hover {
+    background-color: grey;
+    color: #F5F5DC;
+    font-size: 1.1rem;
+}
+
+@media (max-width:600px) {
+    .payment h1 {
+        font-size: 1.5rem;
+    }
+
+    .payment button {
+        width: 150px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}

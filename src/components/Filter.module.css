@@ -1,0 +1,23 @@
+.filter{
+    width: 150px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #800020;
+    font-weight: 600;
+    border: 1px solid #800020;
+    cursor: pointer;
+}
+
+
+.outer{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+@media (max-width:600px) {
+    .filter {
+        width: 110px;
+        font-size: 0.7rem;
+    }
+}

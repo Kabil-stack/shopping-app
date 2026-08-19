@@ -1,0 +1,92 @@
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+}
+.form input{
+    height: 30px;
+    width: 300px;
+    font-size: 1rem;
+    color: maroon;
+    
+}
+
+.form textarea{
+    font-size: 1rem;
+    height: 100px;
+    color: maroon;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 10px;
+   
+
+}
+
+.btns button {
+   
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btns button:first-child {
+    color: #21bc33;
+    border: 1px solid #21bc33;
+    transition-duration: 450ms;
+    transition-timing-function: ease-out;
+
+}
+
+.btns button:first-child:hover {
+    background-color: #21bc33;
+    color: #F5F5DC;
+    font-size: 1.1rem;
+}
+
+.btns button:nth-child(2) {
+    color: #6B7280;
+    border: 1px solid #6B7280;
+    transition-duration: 450ms;
+    transition-timing-function: ease-out;
+}
+
+.btns button:nth-child(2):hover {
+    background-color: #6B7280;
+    color: #F5F5DC;
+    font-size: 1.1rem;
+}
+
+.highlight{
+    color: green;
+}
+
+
+@media (max-width:600px) {
+    .form{
+        width: 250px;
+    }
+        .form input{
+            width: 250px;
+            font-size: 0.8rem;
+        }
+
+                .form textarea{
+                    font-size: 0.8rem;
+                }
+
+                .btns button{
+                    width: 80px;
+                    height: 30px;
+                    font-size: 0.8rem;
+                }
+        .form h2{
+            font-size: 1.2rem;
+        }
+}

@@ -1,0 +1,35 @@
+.cardList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    
+    overflow-x: auto;
+    margin-top: 40px;
+    
+    animation-name: spin;
+    animation-delay: 100ms;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    }
+    .cardList::-webkit-scrollbar{
+        display: none;
+    }
+       
+@keyframes spin {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+
+}
+
+.slider{
+    overflow: hidden;
+}

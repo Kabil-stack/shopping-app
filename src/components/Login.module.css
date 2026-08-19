@@ -1,0 +1,127 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 80vh;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 500px;
+    
+    border-radius: 10px;
+    
+    border: 1px solid darkslategray;
+    padding: 10px;
+    box-shadow:
+            0 0 5px rgba(0, 0, 0, 0.1),
+            0 0 15px rgba(0, 0, 0, 0.1),
+            0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.form h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.inputbox input{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    font-size: 1rem;
+}
+.emoji{
+    vertical-align: middle;
+    margin-left: 2px;
+    cursor: pointer;
+    
+}
+.check span{
+    margin-right: 10px;
+    
+}
+.check input{
+    cursor: pointer;
+    margin-right: 3px;
+}
+.check a{
+    color: brown;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.check a:hover{
+    text-decoration: underline;
+}
+
+.form button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        color: #2563EB;
+        border: 1px solid #2563EB;
+        transition-duration: 450ms;
+        transition-timing-function: ease-out;
+}
+
+.form button:hover{
+    background-color: #2563EB;
+        color: #F5F5DC;
+        font-size: 1.1rem;
+}
+
+.form p > span{
+    color: maroon;
+    cursor: pointer;
+}
+
+.form p>span:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    .form{
+        width: 250px;
+    }
+
+        .form h1{
+            font-size: 1.5rem;
+        }
+
+                .inputbox input{
+                    width: 200px;
+                    height: 25px;
+                    font-size: 0.8rem;
+                }
+
+                        .check a{
+                            font-size: 0.8rem;
+                        }
+
+                        .form button{
+                            width: 80px;
+                                height: 30px;
+                                font-size: 0.9rem;
+                        }
+
+                        .check span{
+                            width: 100%;
+                        }
+
+                        .emoji{
+                            height: 20px;
+                            width: 20px;
+                        }
+
+                                                .check a{
+                                                    margin-left: 5px;
+                                                }
+}

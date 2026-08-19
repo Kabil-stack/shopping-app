@@ -1,0 +1,28 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 7px;
+}
+.head > h1{
+    font-size: 3.5rem;
+    
+    color:#800000;
+    
+}
+
+.logo{
+    font-size: 3.5rem;
+    color: #800000;
+}
+
+@media (max-width:600px){
+    .head>h1{
+        font-size: 1.5rem;
+    }
+
+        .logo{
+            font-size: 1.5rem;
+        }
+}

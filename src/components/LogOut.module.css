@@ -1,0 +1,50 @@
+.logOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 80vh;
+    
+}
+
+.logOut h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.emoji{
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.logOut button{
+    margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        color: #DC3545;
+        border: 1px solid #DC3545;
+        transition-duration: 450ms;
+        transition-timing-function: ease-out;
+}
+
+.logOut button:hover{
+    background-color: #DC3545;
+        color: #F5F5DC;
+        font-size: 1.1rem;
+}
+
+@media (max-width:600px) {
+    .logOut h1{
+        font-size: 1.5rem;
+    }
+
+        .logOut button{
+            width: 80px;
+                height: 30px;
+                font-size: 0.8rem;
+        }
+}

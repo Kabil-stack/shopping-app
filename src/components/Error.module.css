@@ -1,0 +1,15 @@
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.error h1{
+    color: red;
+    
+}
+
+.emoji{
+    vertical-align: middle;
+}

@@ -1,0 +1,134 @@
+.outer{
+   display: flex;
+   justify-content: center;
+}
+
+
+
+.details{
+   width: 500px;
+  
+   margin: 10px;
+   
+   box-shadow: 4px 4px 4px 4px rgb(78, 0, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+}
+
+
+
+.texts{
+   
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   
+}
+
+.heart{
+    position: absolute;
+   top: 25px;
+   right: 25px;
+   cursor: pointer;
+    z-index: 10;
+}
+
+.btns{
+   display: flex;
+   flex-direction: row;
+ 
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btns button{
+   margin: 20px;
+   width: 100px;
+   height: 40px;
+   font-size: 1rem;
+   cursor: pointer;
+}
+
+.btns button:first-child{
+   color: #FF6B00;
+   border: 1px solid #FF6B00;
+   transition-duration: 450ms;
+   transition-timing-function: ease-out;
+   
+}
+
+.btns button:first-child:hover{
+   background-color: #FF6B00;
+   color: #F5F5DC;
+   font-size: 1.1rem;
+}
+
+.btns button:nth-child(2){
+   color: #6B7280;
+      border: 1px solid #6B7280;
+      transition-duration: 450ms;
+         transition-timing-function: ease-out;
+}
+
+.btns button:nth-child(2):hover {
+   background-color: #6B7280;
+   color: #F5F5DC;
+   font-size: 1.1rem;
+}
+
+
+
+.btns button:first-child:disabled {
+   background-color: #D1D5DB;
+      color: #6B7280;
+      border: 1px solid #9CA3AF;
+      cursor: not-allowed;
+
+}
+
+
+.btns button:first-child:disabled:hover{
+   font-size: 1rem;
+}
+
+img{
+   margin-top: 20px;
+}
+
+@media (max-width:600px) {
+   .details {
+      width: 250px;
+   }
+   .emoji{
+      width: 30px;
+      height: 30px;
+      
+   }
+
+      .heart {
+         top: 10px;
+         right: 10px;
+      }
+
+            .texts {
+               width: 240px;
+            }
+
+            .details h3{
+               font-size: 1rem;
+            }
+         .details p{
+            font-size: 0.8rem;
+         }
+
+      .btns button{
+         width: 70px;
+            height: 30px;
+            font-size: 0.7rem;
+      }
+}

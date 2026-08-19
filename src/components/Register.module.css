@@ -1,0 +1,109 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji{
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.register{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.register h1{
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.register p{
+    font-size: 1.3rem;
+}
+
+.register input{
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.emoji{
+    font-size: 1.2rem;
+    color: maroon;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.btns button{
+    margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition-duration: 450ms;
+            transition-timing-function: ease-out;
+}
+
+.btns button:first-of-type{
+    color: #16A34A;
+        border: 1px solid #16A34A;
+}
+
+.btns button:first-of-type:hover {
+    background-color: #16A34A;
+    color: #F5F5DC;
+    font-size: 1.1rem;
+}
+
+.btns button:nth-of-type(2){
+    color: #6B7280;
+    border: 1px solid #6B7280;
+}
+
+.btns button:nth-of-type(2):hover {
+    background-color: #6B7280;
+    color: #F5F5DC;
+    font-size: 1.1rem;
+}
+
+@media (max-width:600px) {
+    .register h1{
+        font-size: 1.5rem;
+    }
+
+        .register input{
+            height: 20px;
+            width: 200px;
+            font-size: 0.9rem;
+        }
+
+                .register p{
+                    font-size: 0.9rem;
+                }
+
+                                .btns button{
+                                    height: 20px;
+                                    width: 80px;
+                                    font-size: 0.9rem;
+                                }
+                .btns{
+                    width: 220px;
+                }
+            .emoji{
+                height: 17px;
+                width: 17px;
+            }
+
+        .register{
+            margin-top: 25px;
+        }
+}
